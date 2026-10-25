@@ -1,0 +1,14 @@
+[
+  {
+    "id": "standard",
+    "name": "Standard Test: Customer Support Chatbot Proposal",
+    "request": "Create a project proposal for building a customer support chatbot for an online retail company. Include scope, timeline, budget estimate and key risks.",
+    "expected_behavior": "Doc type 'proposal', plan with Executive Summary (dependent on subsequent sections), Scope & Objectives, Timeline (build_timeline), Budget (build_budget), Risk Register (build_risk_register). Executive summary executes last but appears first."
+  },
+  {
+    "id": "complex",
+    "name": "Complex Test: Conflicted Cloud Migration Initiative",
+    "request": "Our board meets soon and wants something on moving our operations to the cloud. We only have about $50,000, but leadership also wants multi-region redundancy, 24/7 support and the whole migration finished in 6 weeks. I'm not sure if this should be a plan, a report or a proposal, you decide. Also cover what each team needs to do and what we should push back on.",
+    "expected_behavior": "Chooses and justifies doc type (e.g. proposal), creates explicit assumptions for missing infrastructure details, fires deadline overrun and budget cap overrun flags, generates dedicated Conflict Analysis and Recommended Phasing section, details team responsibilities, lists pushback items, and verifies via reflection."
+  }
+]

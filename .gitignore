@@ -1,0 +1,19 @@
+# Virtual environment
+.venv/
+venv/
+ENV/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pytest_cache/
+
+# Environment files with secrets
+.env
+*.env
+
+# Output artifacts
+output/
+demo_output/
+*.docx
